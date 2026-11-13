@@ -1,0 +1,1081 @@
+{
+  "module_id": "F01",
+  "review_date": "2026-10-27",
+  "review_scope": "Targeted source review with explicit reviewed-page records; S10 reviewed in full. No claim to have read every page of all books.",
+  "sources": [
+    {
+      "source_id": "S01",
+      "pdf_pages": 189,
+      "title": "Intro to Logic",
+      "attributed_authors": [
+        "Matthias Felleisen",
+        "John Grenier",
+        "Moshe Vardi",
+        "Phokion Kolaitis",
+        "Ian Barland"
+      ],
+      "bibliographic_note": "Names appear together in the uploaded copyright statement. Connexions collection identifiers col10154/1.20 and 383d4b87-2d7b-454e-99fe-2eaa43eae8ff@20.20 are printed. No publication year is verified; the 2019 PDF creation timestamp is not a publication date.",
+      "licence": {
+        "label_in_pdf": "Creative Commons-ShareAlike 4.0 International License",
+        "printed_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "normalised_identifier": "CC-BY-SA-4.0",
+        "evidence_pdf_pages": [
+          2,
+          20
+        ],
+        "note": "The abbreviated label omits Attribution; the printed licence URL specifies by-sa."
+      },
+      "reviewed_pdf_pages": "1-5 (identity and contents); 20-27 (proof, non-proof, precision); 42-45 (truth tables and limits)",
+      "page_mapping": "For reviewed body pages, PDF page = printed page + 10.",
+      "pinpoints": [
+        {
+          "section": "1.3.1 and 1.3.1.1",
+          "printed_pages": "10-12",
+          "pdf_pages_1_based": "20-22",
+          "supports": "Hidden assumptions; form of inference differs from truth of premises."
+        },
+        {
+          "section": "1.3.1.2",
+          "printed_pages": "12-15",
+          "pdf_pages_1_based": "22-25",
+          "supports": "Counterexamples diagnose inference failure; correct results can follow faulty reasoning."
+        },
+        {
+          "section": "1.3.1.4",
+          "printed_pages": "17",
+          "pdf_pages_1_based": "27",
+          "supports": "Precise interpretation matters before formal reasoning."
+        },
+        {
+          "section": "2.2.1.1",
+          "printed_pages": "32-33",
+          "pdf_pages_1_based": "42-43",
+          "supports": "Truth tables compare formulae; rules and observations must both be encoded."
+        },
+        {
+          "section": "2.2.2.1",
+          "printed_pages": "34-35",
+          "pdf_pages_1_based": "44-45",
+          "supports": "Exhaustive truth tables grow exponentially with the number of independent propositional inputs."
+        }
+      ],
+      "recommended_use": "Supporting formal verification and explicit assumption lessons. Use original school scenarios, not textbook exercise adaptations.",
+      "cautions": [
+        "Technical and historical examples are not contemporary empirical evidence about agent systems.",
+        "Do not copy the health, security or legal asides as verified current advice.",
+        "Formal checks apply to the supplied encoding and premises."
+      ],
+      "id": "S01",
+      "pdf_page_count": 189
+    },
+    {
+      "id": "S02",
+      "title": "A Little More Logical: Reasoning Well About Science, Ethics, Religion, and the Rest of Life",
+      "authors": [
+        "Brendan Shea"
+      ],
+      "edition": "2nd edition",
+      "publication": "Thoughtful Noodle Books, June 2024",
+      "bibliographic_evidence_pdf_pages": [
+        2,
+        3,
+        7
+      ],
+      "licence": {
+        "statement": "CC-BY",
+        "version": "not specified in inspected notice",
+        "evidence_pdf_pages": [
+          3,
+          7
+        ],
+        "note": "Do not silently convert the stated CC-BY licence into a specific version. Publisher imprint is described by the author as fictional; the book and author are real according to its own publication statements."
+      },
+      "closely_reviewed_pdf_pages": [
+        2,
+        3,
+        7,
+        14,
+        15,
+        16,
+        17,
+        37,
+        38,
+        39,
+        40,
+        41,
+        69,
+        70,
+        142,
+        143,
+        144,
+        145,
+        212,
+        213,
+        214
+      ],
+      "page_convention": "Numbered body pages inspected match 1-based PDF page indices. Front matter uses Roman numerals.",
+      "pinpoints": [
+        {
+          "anchor": "S02.arguments",
+          "section": "Chapter 1, What is an Argument? and Types of Logic",
+          "printed_pages": "15–17",
+          "pdf_pages": [
+            15,
+            16,
+            17
+          ],
+          "use": "Premise/conclusion/inferential-link introduction, with independently corrected distinctions."
+        },
+        {
+          "anchor": "S02.evaluation",
+          "section": "Chapter 2, How Do I Evaluate Deductive Arguments? and How Do I Evaluate Inductive Arguments?",
+          "printed_pages": "39–41",
+          "pdf_pages": [
+            39,
+            40,
+            41
+          ],
+          "use": "Validity versus soundness; strength versus cogency. Do not reuse every accompanying example."
+        },
+        {
+          "anchor": "S02.authority",
+          "section": "Chapter 4, Appeals to Unqualified or Biased Authority",
+          "printed_pages": "69–70",
+          "pdf_pages": [
+            69,
+            70
+          ],
+          "use": "Check relevant expertise, conflicts, and source evidence; bias is a reason for scrutiny, not proof a claim is false."
+        },
+        {
+          "anchor": "S02.bayes",
+          "section": "Chapter 8, Introduction to Bayes’ Theorem and medical-test example",
+          "printed_pages": "142–144",
+          "pdf_pages": [
+            142,
+            143,
+            144
+          ],
+          "use": "Binary Bayes formula and base-rate distinction. Use original synthetic software examples rather than clinical claims."
+        },
+        {
+          "anchor": "S02.virtues",
+          "section": "The Two Pitfalls of Argumentation; The Ideal of the Virtuous and Skilled Arguer",
+          "printed_pages": "212–214",
+          "pdf_pages": [
+            212,
+            213,
+            214
+          ],
+          "use": "Connect good-faith criticism to reasoning skill, translated into observable agent behaviour rather than claims about agent character."
+        }
+      ],
+      "critical_notes": [
+        "The source discloses assistance from generative AI on PDF 7. This is provenance, not by itself an argument against a claim. Audit concepts and examples directly.",
+        "PDF 38 labels two bare conditionals as examples of good/bad argument form, and PDF 39 presents a practical conclusion without all necessary practical premises. Use original fully specified examples.",
+        "PDF 40–41 treats one future-behaviour prediction as weak because it is not necessary, which is insufficient to establish weakness: non-entailment is compatible with strong induction. Assess sample, reference class, stability and exceptions instead.",
+        "PDF 145 includes Bayesian exercises with unspecified likelihoods. A numerical posterior cannot be determined without those inputs; agents must not invent them.",
+        "PDF 17 and 40 give loose code/proof analogies. Correct execution requires actual code, specification, preconditions, semantics and runtime conditions; deductive validity alone proves no deployed system outcome."
+      ],
+      "pdf_total_pages": 219,
+      "source_id": "S02",
+      "pdf_page_count": 219,
+      "public_edition_2026_11_13_note": "Current online front matter states CC-BY without version; online book metadata/footer states CC BY-NC 4.0. The original uploaded-PDF notice remains a historical observation, not a blanket permission. No source text is redistributed."
+    },
+    {
+      "id": "S03",
+      "title": "Introduction to Philosophy: Logic",
+      "authors": [
+        "Bahram Assadian",
+        "Matthew Knachel",
+        "Cassiano Terra Rodrigues",
+        "Michael Shaffer",
+        "Nathan Smith"
+      ],
+      "book_editor": "Benjamin Martin",
+      "series_editor": "Christina Hendricks",
+      "publication": "Rebus Community; original publication 18 November 2020; supplied version 1.2.1 dated 22 August 2021",
+      "bibliographic_evidence_pdf_pages": [
+        3,
+        4,
+        5,
+        98,
+        99,
+        103
+      ],
+      "licence": {
+        "statement": "Creative Commons Attribution 4.0 International, except where otherwise noted",
+        "evidence_pdf_pages": [
+          4,
+          98,
+          99
+        ],
+        "url_in_document": "https://press.rebus.community/intro-to-phil-logic/",
+        "url_network_verified": false,
+        "note": "Attribution should identify individual chapter authors. Adaptation must identify changes and must not imply author endorsement."
+      },
+      "closely_reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        52,
+        53,
+        54,
+        55,
+        56,
+        61,
+        62,
+        63,
+        64,
+        65,
+        98,
+        99,
+        103
+      ],
+      "visually_inspected_pdf_pages": [
+        61,
+        62,
+        63
+      ],
+      "page_convention": "Printed Arabic page = PDF page minus 16 for the inspected body. Equations are partly absent from plain-text extraction; PDF 61–63 were visually inspected.",
+      "pinpoints": [
+        {
+          "anchor": "S03.smith.validity",
+          "author": "Nathan Smith",
+          "section": "Chapter 2, Evaluating Arguments: Deductive Arguments",
+          "printed_pages": "14–18",
+          "pdf_pages": [
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "use": "Separate premise truth from entailment; seek a premises-true/conclusion-false counterexample."
+        },
+        {
+          "anchor": "S03.smith.induction",
+          "author": "Nathan Smith",
+          "section": "Chapter 2, Inductive Arguments and Abductive Arguments",
+          "printed_pages": "18–22",
+          "pdf_pages": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "use": "Inductive generalisation and abductive explanation; sample quality and alternative explanations."
+        },
+        {
+          "anchor": "S03.rodrigues.fallacies",
+          "author": "Cassiano Terra Rodrigues",
+          "section": "Chapter 4, Informal Fallacies",
+          "printed_pages": "36–40",
+          "pdf_pages": [
+            52,
+            53,
+            54,
+            55,
+            56
+          ],
+          "use": "Context, relevance and warranted premises; circular arguments may be deductively valid yet fail to provide independent support; emotions need not make an argument fallacious."
+        },
+        {
+          "anchor": "S03.shaffer.conditions",
+          "author": "Michael Shaffer",
+          "section": "Chapter 5, Necessary and Sufficient Conditions, opening account and inference diagrams",
+          "printed_pages": "45–47",
+          "pdf_pages": [
+            61,
+            62,
+            63
+          ],
+          "use": "A→B makes A sufficient for B and B necessary for A in the stated classical formalisation; modus ponens/tollens versus converse errors. The prose error on printed 47 must be corrected."
+        }
+      ],
+      "critical_notes": [
+        "Verified prose error: printed p.47 / PDF63, first paragraph discussing affirming the consequent, reverses which condition is necessary. The diagrams on printed46 / PDF62 correctly show A→B. The corrected relation is A sufficient for B, B necessary for A. Visually verified against rendered pages.",
+        "Printed p.20 / PDF36 implies a larger sample is more likely representative. Larger biased samples can remain biased; require sampling design and population fit as separate checks.",
+        "Printed pp.21–22 / PDF37–38 recommends the simpler explanation. The footnote on printed21 acknowledges debate. Treat simplicity as a defeasible comparative heuristic, never proof of truth or permission to ignore contrary evidence.",
+        "Abduction is distinguished from induction in this chapter; Van Cleave uses induction more broadly to include inference to best explanation. The module should declare its convention and accept either terminology when the inferential status is correctly explained.",
+        "Some informal-fallacy criteria mix truth, audience acceptability and practical persuasion. The module must keep evidential truth, communicative intelligibility and authorisation distinct."
+      ],
+      "pdf_total_pages": 103,
+      "source_id": "S03",
+      "pdf_page_count": 103
+    },
+    {
+      "source_id": "S04",
+      "pdf_pages": 154,
+      "title": "forallx: An Introduction to Formal Logic",
+      "attributed_authors": [
+        "P. D. Magnus"
+      ],
+      "edition": "version 1.4 [171229], current as of 29 December 2017",
+      "bibliographic_note": "Identity, version and date verified directly from uploaded pages 1-2; this is not a later Calgary/Cambridge edition.",
+      "licence": {
+        "label_in_pdf": "Attribution 4.0",
+        "printed_url": "http://creativecommons.org/licenses/by/4.0/",
+        "normalised_identifier": "CC-BY-4.0",
+        "evidence_pdf_pages": [
+          1,
+          2
+        ]
+      },
+      "reviewed_pdf_pages": "1-4 (identity/contents); 7-9; 23-25; 39-41; 52-65; 125-127. Pages 64 and 10 of S08 were also visually inspected after rendering.",
+      "page_mapping": "Reviewed numbered pages equal PDF page numbers.",
+      "pinpoints": [
+        {
+          "section": "1.3-1.4",
+          "printed_pages": "7-9",
+          "pdf_pages_1_based": "7-9",
+          "supports": "Separate premise truth from deductive validity; an invalid inference can have a true conclusion."
+        },
+        {
+          "section": "2.2, Disjunction and Conditional",
+          "printed_pages": "23-25",
+          "pdf_pages_1_based": "23-25",
+          "supports": "Inclusive versus exclusive or; A only if B translates as A -> B; material conditional is false only when A is true and B false; it does not encode causation."
+        },
+        {
+          "section": "3.3-3.4",
+          "printed_pages": "39-41",
+          "pdf_pages_1_based": "39-41",
+          "supports": "Truth-table tests for equivalence, consistency, validity and counterexamples."
+        },
+        {
+          "section": "4.3",
+          "printed_pages": "52-54",
+          "pdf_pages_1_based": "52-54",
+          "supports": "Universal/existential quantifiers; negation placement; specified non-empty universe of discourse."
+        },
+        {
+          "section": "4.4, Translating to QL",
+          "printed_pages": "55-57",
+          "pdf_pages_1_based": "55-57",
+          "supports": "Restricted universal uses implication; restricted existential uses conjunction."
+        },
+        {
+          "section": "4.4, Empty predicates and Picking a Universe of Discourse",
+          "printed_pages": "57-60",
+          "pdf_pages_1_based": "57-60",
+          "supports": "Empty predicates are permitted although the overall domain is non-empty; universal claims do not by themselves establish instances."
+        },
+        {
+          "section": "4.4, Quantifiers and scope; Ambiguous predicates",
+          "printed_pages": "61-63",
+          "pdf_pages_1_based": "61-63",
+          "supports": "Scope changes meaning; ambiguous predicate definitions can turn a bad natural-language argument into a formally valid but unfaithful encoding."
+        },
+        {
+          "section": "4.4, Multiple quantifiers",
+          "printed_pages": "63-65",
+          "pdf_pages_1_based": "63-65",
+          "supports": "Build relational formulae in small steps, respecting variable binding."
+        },
+        {
+          "section": "6.8-6.9",
+          "printed_pages": "125-127",
+          "pdf_pages_1_based": "125-127",
+          "supports": "Distinguish semantic entailment and formal derivation; proof-system soundness is different from an argument having true premises."
+        }
+      ],
+      "recommended_use": "Primary formal spine for F01, with a small bounded propositional tool and human-readable interpretations.",
+      "cautions": [
+        "The occasional informal wording equating the connective with entailment should not be replicated. Use A -> B for an object-language material conditional and Gamma |= C for semantic entailment.",
+        "Do not imply that a non-empty overall domain forces every predicate class to have a member.",
+        "Unknown is an information status, not a third classical truth value.",
+        "The comments about informal reasoning and proof on pp. 125-127 should not become a claim that automated verification has no limits or that all first-order problems are decidable."
+      ],
+      "id": "S04",
+      "pdf_page_count": 154
+    },
+    {
+      "id": "S05",
+      "title": "Introduction to Logic and Critical Thinking",
+      "authors": [
+        "Matthew J. Van Cleave"
+      ],
+      "edition": "Version 2.0",
+      "publication": "2016 (preface dated 4 January 2016); no separate publisher supplied on inspected title/copyright pages",
+      "bibliographic_evidence_pdf_pages": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "licence": {
+        "statement": "Creative Commons Attribution 4.0 International",
+        "evidence_pdf_pages": [
+          2,
+          6
+        ],
+        "url_in_document": "http://creativecommons.org/licenses/by/4.0/",
+        "url_network_verified": false
+      },
+      "closely_reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        92,
+        93,
+        94,
+        95,
+        96,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        185,
+        186,
+        187,
+        188,
+        189,
+        194,
+        202,
+        203,
+        215
+      ],
+      "page_convention": "For the inspected body, printed Arabic page = PDF page minus 7. The glossary/index has inconsistent listed page references; use the actual page footer.",
+      "pinpoints": [
+        {
+          "anchor": "S05.reconstruction",
+          "section": "§1.5, Using your own paraphrases of premises and conclusions to reconstruct arguments in standard form",
+          "printed_pages": "15–17",
+          "pdf_pages": [
+            22,
+            23,
+            24
+          ],
+          "use": "Reconstruct claims fairly while preserving the original. Added premises must be labelled."
+        },
+        {
+          "anchor": "S05.validity",
+          "section": "§§1.6–1.8, Validity, Soundness, Deductive vs. Inductive arguments",
+          "printed_pages": "18–25",
+          "pdf_pages": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "use": "Validity versus truth; defeasible induction versus monotonic classical consequence. Correct the failed-search shortcut on printed19."
+        },
+        {
+          "anchor": "S05.assumptions",
+          "section": "§1.9, Arguments with missing premises",
+          "printed_pages": "25–30",
+          "pdf_pages": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "use": "Expose hidden premises and normative bridge assumptions; charity must not silently supply authority or empirical facts."
+        },
+        {
+          "anchor": "S05.conditionals",
+          "section": "§2.7, Conditionals",
+          "printed_pages": "85–89",
+          "pdf_pages": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "use": "Classical material conditional truth table; distinguish sufficient antecedent and necessary consequent, and translate only-if correctly."
+        },
+        {
+          "anchor": "S05.abduction",
+          "section": "§3.2, Inference to the best explanation and the seven explanatory virtues",
+          "printed_pages": "147–152",
+          "pdf_pages": [
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "use": "Compare explanations for evidence, avoid unsupported detail, identify discriminating observations. Treat explanatory virtues as defeasible."
+        },
+        {
+          "anchor": "S05.base_rates",
+          "section": "§3.7, The base rate fallacy",
+          "printed_pages": "178–182",
+          "pdf_pages": [
+            185,
+            186,
+            187,
+            188,
+            189
+          ],
+          "use": "Distinguish likelihood from posterior probability; calculate true positives and false positives in a specified population."
+        },
+        {
+          "anchor": "S05.equivocation",
+          "section": "§4.1.5, Equivocation",
+          "printed_pages": "195–196",
+          "pdf_pages": [
+            202,
+            203
+          ],
+          "use": "Hold the meaning/reference of each key term fixed across the inference."
+        },
+        {
+          "anchor": "S05.authority",
+          "section": "§4.3.6, Appeal to authority",
+          "printed_pages": "208",
+          "pdf_pages": [
+            215
+          ],
+          "use": "Relevant expert testimony can be evidence; misplaced expertise is not sufficient support."
+        }
+      ],
+      "critical_notes": [
+        "Printed19 / PDF26 recommends inferring validity when no counterexample can be imagined. Correct for agents: failure to find a counterexample is not a proof unless a complete decision procedure has exhausted the specified finite formalisation.",
+        "Printed15–17 / PDF22–24 allows broad reconstruction. Require a trace from the source statement to the paraphrase and mark each added assumption. Do not convert an assumed premise into source evidence.",
+        "Printed18 and21 / PDF25 and28 include empirical/legal examples asserted as true. They are not relied on as factual authorities or reproduced in the module. New exercises use explicitly stipulated facts.",
+        "Printed150 / PDF157 conflates true hypotheses with those not yet falsified, and false hypotheses with those shown false. Correct: truth and our evidential status are distinct; failed falsification does not entail truth.",
+        "Printed179 / PDF186 generalises that a rare condition should still be doubted despite a highly accurate positive test. Actual posterior depends on prevalence, sensitivity and false-positive rate; calculate using all three rather than apply that sentence unconditionally.",
+        "Printed181 / PDF188 uses expected-count approximations in a one-target detection example. Do not reuse its numerical answer as an exact benchmark; use independently calculated synthetic cases."
+      ],
+      "pdf_total_pages": 244,
+      "source_id": "S05",
+      "pdf_page_count": 244
+    },
+    {
+      "id": "S06",
+      "title": "Introduction to Logic",
+      "authors": [
+        "Harry J. Gensler"
+      ],
+      "edition": "3rd edition",
+      "publication": "Routledge, 2017",
+      "isbn_ebook": "9781315693361",
+      "bibliographic_evidence_pdf_pages": [
+        1,
+        2
+      ],
+      "licence": {
+        "statement": "Copyright 2017 Harry J. Gensler; no open reuse licence located in inspected notice",
+        "evidence_pdf_pages": [
+          2
+        ],
+        "note": "Use as a consulted source and provide original summaries/examples. Do not redistribute source PDF or copy exercises."
+      },
+      "closely_reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        76,
+        77,
+        78,
+        79,
+        94,
+        95,
+        96,
+        141,
+        142,
+        159,
+        160
+      ],
+      "visually_inspected_pdf_pages": [
+        13
+      ],
+      "page_convention": "Supplied PDF is reflowed. It contains inline four-digit original-page markers, not matching ordinary PDF page numbers. Cite section plus 1-based PDF page; do not present a synthetic print-page range.",
+      "pinpoints": [
+        {
+          "anchor": "S06.validity",
+          "section": "§§1.2–1.3, Valid arguments and Sound arguments",
+          "printed_pages": null,
+          "pdf_pages": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "use": "Validity conditional on premise truth, stable meaning/reference, and refuting a supporting argument does not establish the conclusion false."
+        },
+        {
+          "anchor": "S06.argument_quality",
+          "section": "§§4.1–4.2, Good arguments and opening informal-fallacy discussion",
+          "printed_pages": null,
+          "pdf_pages": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "use": "Clear premises/conclusion, relevant evidence, explicit assumptions, circularity/equivocation and faithful treatment of opponents."
+        },
+        {
+          "anchor": "S06.inconsistency",
+          "section": "§4.3, Inconsistency",
+          "printed_pages": null,
+          "pdf_pages": [
+            94,
+            95,
+            96
+          ],
+          "use": "An inconsistent set requires revision, while logic alone does not decide which premise should be abandoned."
+        },
+        {
+          "anchor": "S06.abduction",
+          "section": "§5.9, Best-explanation reasoning",
+          "printed_pages": null,
+          "pdf_pages": [
+            141,
+            142
+          ],
+          "use": "Compare explanations, and distinguish the best currently proposed explanation from truth or the best possible explanation."
+        },
+        {
+          "anchor": "S06.unknown",
+          "section": "§6.4, Unknown evaluations",
+          "printed_pages": null,
+          "pdf_pages": [
+            159,
+            160
+          ],
+          "use": "Partial knowledge: some compounds are settled despite unknown atoms; missing truth values must not be replaced with false by default."
+        }
+      ],
+      "critical_notes": [
+        "The unknown marker in §6.4 is epistemic incompleteness in a classical calculation. Do not casually treat it as a third metaphysical truth value or claim this source teaches a specific three-valued logic here.",
+        "The substantive political, ethical, religious and scientific examples are not adopted as school doctrine. The module uses the logical distinctions and original agent-specific cases.",
+        "Formal material implication is evaluated under a declared semantics; applying it to causal, temporal, defeasible or permission language needs additional premises and scope decisions."
+      ],
+      "pdf_total_pages": 577,
+      "source_id": "S06",
+      "pdf_page_count": 577
+    },
+    {
+      "source_id": "S07",
+      "pdf_pages": 35,
+      "title": "Basic Concepts of Logic",
+      "attributed_authors": [
+        "Daniel Bonevac"
+      ],
+      "book": "Deduction: Introductory Symbolic Logic",
+      "edition": "Publisher sample associated with second edition",
+      "year": "2002 (publisher catalogue; not printed in the uploaded excerpt)",
+      "bibliographic_note": "The upload has no title/copyright leaf. Its 35-page chapter matches the publisher-hosted sample title, structure and pagination. The publisher catalogue identifies the book and author. Treat the excerpt identification as cross-checked attribution, not information printed on its cover.",
+      "licence": {
+        "status": "No open licence statement found in the uploaded excerpt; publisher sample access is not a redistribution licence."
+      },
+      "reviewed_pdf_pages": "1-5; 16-18; beginning of 19; 23 and beginning of 24; 27 and beginning of 28; 31 and beginning of 32-33.",
+      "page_mapping": "Printed chapter pages 1-35 equal PDF page numbers.",
+      "pinpoints": [
+        {
+          "section": "1.1 Arguments",
+          "printed_pages": "1-4",
+          "pdf_pages_1_based": "1-4",
+          "supports": "Arguments have premises and conclusions; contextual meaning and unstated components matter."
+        },
+        {
+          "section": "1.2 Validity",
+          "printed_pages": "16-19",
+          "pdf_pages_1_based": "16-19",
+          "supports": "Validity preserves truth; soundness requires validity and true premises; factual expertise supplies premise evaluation."
+        },
+        {
+          "section": "1.3 Implication and Equivalence",
+          "printed_pages": "23-24",
+          "pdf_pages_1_based": "23-24",
+          "supports": "Entailment and equivalence concern truth across possible circumstances."
+        },
+        {
+          "section": "1.5 Satisfiability",
+          "printed_pages": "31-33",
+          "pdf_pages_1_based": "31-33",
+          "supports": "A set may be jointly inconsistent even when individual members are satisfiable; entailment can be tested through inconsistency of premises plus negated conclusion."
+        }
+      ],
+      "verification_urls": [
+        {
+          "url": "https://www.blackwellpublishing.com/content/BPL_Images/Content_Store/Sample_Chapter/0631227105/Bonevac.pdf",
+          "verified": "Opened, 35-page publisher sample; chapter title and pagination match."
+        },
+        {
+          "url": "https://uat.store.wiley.com/en-us/deduction-introductory-symbolic-logic-2nd-edition-p-9780631227137",
+          "verified": "Publisher search result identifies Daniel Bonevac, second edition, November 2002. Direct open returned 403."
+        },
+        {
+          "url": "https://www.wiley.com/en-us/shop/general-philosophy/philosophical-logic-c-PL30",
+          "verified": "Publisher search result lists second edition by Daniel Bonevac, December 2002; use year only."
+        }
+      ],
+      "recommended_use": "Cross-check validity/soundness, argument reconstruction and consistency concepts. Original school examples only.",
+      "cautions": [
+        "Do not infer that an unverified premise is false. A valid argument with unverified premises has unestablished soundness.",
+        "Resolve scope, time and referent differences before declaring a contradiction."
+      ],
+      "id": "S07",
+      "pdf_page_count": 35
+    },
+    {
+      "source_id": "S08",
+      "pdf_pages": 26,
+      "title": "Basic Concepts of Logic",
+      "attributed_authors": [
+        "Gary Hardegree"
+      ],
+      "book": "Symbolic Logic: A First Course",
+      "edition": "Not verified for the uploaded 26-page revision",
+      "year": null,
+      "bibliographic_note": "Uploaded running headers say Hardegree, Symbolic Logic. Author/title attribution cross-checked with Gary Hardegree's UMass course. That course identifies a third-edition printed text but explicitly describes its online text as an earlier edition. The linked online chapter has 28 pages; uploaded chapter has 26. Do not assign the online chapter edition/date or pagination to the upload.",
+      "licence": {
+        "status": "No open licence statement found in the uploaded excerpt. Do not infer permission to redistribute from university hosting."
+      },
+      "reviewed_pdf_pages": "1-5; 9-10; 13-19. Page 10 visually inspected after rendering.",
+      "page_mapping": "Reviewed printed page numbers equal PDF page numbers.",
+      "pinpoints": [
+        {
+          "section": "1-2",
+          "printed_pages": "2-4",
+          "pdf_pages_1_based": "2-4",
+          "supports": "Inference and argument; declarative claims differ from commands/questions; unknown truth does not make a sentence non-propositional."
+        },
+        {
+          "section": "3 Deductive Logic versus Inductive Logic",
+          "printed_pages": "5",
+          "pdf_pages_1_based": "5",
+          "supports": "Fallible evidential support differs from deductive guarantee."
+        },
+        {
+          "section": "6 Preliminary Definitions",
+          "printed_pages": "9-10",
+          "pdf_pages_1_based": "9-10",
+          "supports": "Distinguish factual correctness of premises, validity and soundness."
+        },
+        {
+          "section": "8 Demonstrating Invalidity Using the Method of Counterexamples",
+          "printed_pages": "13-18",
+          "pdf_pages_1_based": "13-18",
+          "supports": "A counterexample must preserve the relevant form and make premises true with conclusion false."
+        },
+        {
+          "section": "9 Examples of Valid Arguments in Syllogistic Logic",
+          "printed_pages": "19",
+          "pdf_pages_1_based": "19",
+          "supports": "Failure to find a counterexample is not a proof that none exists."
+        }
+      ],
+      "verification_urls": [
+        {
+          "url": "https://courses.umass.edu/phil110h/",
+          "verified": "Opened author-maintained university course page."
+        },
+        {
+          "url": "https://courses.umass.edu/phil110h/text.htm",
+          "verified": "Opened university text index."
+        },
+        {
+          "url": "https://courses.umass.edu/phil110h/pdf/c01_3-99.pdf",
+          "verified": "Opened 28-page chapter; establishes related source but differs from uploaded revision."
+        }
+      ],
+      "recommended_use": "Cross-check definitions and counterexample method, with exact citations to uploaded revision.",
+      "cautions": [
+        "The text contains dated social examples and a local typo in a counterexample explanation on p. 18. Prefer neutral original agent examples.",
+        "Do not transfer the general claim that form alone decides validity without stating the formal vocabulary and a faithful encoding."
+      ],
+      "id": "S08",
+      "pdf_page_count": 26
+    },
+    {
+      "id": "S09",
+      "author": "Edward L. Thorndike",
+      "title": "The Principles of Teaching Based on Psychology",
+      "publisher": "A. G. Seiler",
+      "place": "New York",
+      "year": 1906,
+      "edition_statement": "No numbered edition statement observed on title or copyright pages.",
+      "bibliographic_evidence": {
+        "pdf_pages": [
+          3,
+          4,
+          7
+        ],
+        "details": "Title, author, publisher and year on PDF 3; copyright 1906 on PDF 4; preface dated December 1905 on PDF 7."
+      },
+      "pdf_page_count": 305,
+      "rights_observed": "Copyright 1906 by Edward L. Thorndike on PDF 4. No Creative Commons or other express reuse licence observed. This review does not determine jurisdiction-specific public-domain or scan rights. Do not redistribute the uploaded scan as part of the module.",
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        145,
+        146,
+        147,
+        159,
+        160,
+        161,
+        162,
+        166,
+        167,
+        168,
+        172,
+        173,
+        174,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        255,
+        256,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276
+      ],
+      "visually_verified_pdf_pages": [
+        3,
+        252,
+        276
+      ],
+      "page_mapping": "Printed Arabic page n corresponds to PDF page n+12 for the inspected body pages. Preface v-vii corresponds to PDF 5-7. Cite both labels to avoid ambiguity.",
+      "use": "Historical pedagogical inspiration for application, variable contexts, direct testing and transfer caution; do not represent early twentieth-century psychology as evidence about modern agents.",
+      "pinpoints": [
+        {
+          "printed_pages": "v-vi",
+          "pdf_pages": "5-6",
+          "section": "Preface",
+          "claim": "Exercises should require application of principles and judgement about methods.",
+          "agent_adaptation": "Use original applied agent cases alongside explanations; verify performance rather than lesson consumption."
+        },
+        {
+          "printed_pages": "133-135",
+          "pdf_pages": "145-147",
+          "section": "Chapter IX, section 34",
+          "claim": "Analysis is taught through varied instances, directed comparison, an explicit description, and practice in new combinations.",
+          "agent_adaptation": "Vary entity names, domains and surface narratives while preserving a logical structure; then change the structure to test discrimination."
+        },
+        {
+          "printed_pages": "147-150, 154",
+          "pdf_pages": "159-162, 166",
+          "section": "Chapter X, section 36",
+          "claim": "Reasoning instruction should supply relevant facts, make the goal clear and test conclusions against evidence.",
+          "agent_adaptation": "Give agents a task contract and evidence ledger, then require checkable conclusions and a verification step."
+        },
+        {
+          "printed_pages": "154-156, 160-162",
+          "pdf_pages": "166-168, 172-174",
+          "section": "Chapter X, sections 37-38",
+          "claim": "Discusses inductive and deductive teaching and the danger of prompting a conclusion through context without requiring independent selection.",
+          "agent_adaptation": "Ask the learner to identify the applicable rule among plausible alternatives; do not count reading a nearby rule and repeating it as transfer."
+        },
+        {
+          "printed_pages": "235-241, 243-244",
+          "pdf_pages": "247-253, 255-256",
+          "section": "Chapter XV, sections 56-59",
+          "claim": "Challenges the assumption that special training produces equal general improvement and calls for measurement/comparison.",
+          "agent_adaptation": "Limit competence claims to tested task families; hold out contexts and compare the same configuration with and without the lesson."
+        },
+        {
+          "printed_pages": "240",
+          "pdf_pages": "252",
+          "section": "Chapter XV, section 58",
+          "claim": "Suggests before/after measurement with allowance for other influences, or comparing trained and otherwise similar untrained learners.",
+          "agent_adaptation": "Use matched baseline and equal-inference-effort control arms. The modern protocol is our design proposal, not a method validated for agents by this source."
+        },
+        {
+          "printed_pages": "257-264",
+          "pdf_pages": "269-276",
+          "section": "Chapter XVI, section 61; start of section 62",
+          "claim": "Test teaching outcomes, diagnose failures, test meaningful application, distrust familiar repetition, and verify teaching methods.",
+          "agent_adaptation": "Keep observable submissions, diagnose error category, remediate, reassess on new development cases, and reserve independent assessment."
+        }
+      ],
+      "limitations": [
+        "The text concerns human learners in 1906. Its accounts of psychology, ability, inherited traits, gender, health and discipline are not adopted.",
+        "Do not use its old medical examples as current medical facts.",
+        "Its general-to-particular versus particular-to-general definitions of deduction/induction are historical pedagogical simplifications, explicitly qualified at printed page 155. Use modern formal definitions from the logic texts.",
+        "The source supports a history of methodological ideas. It does not establish that any present agent has learned or that the proposed module works."
+      ],
+      "source_id": "S09"
+    },
+    {
+      "id": "S10",
+      "author": "Aleksandra Łuczak",
+      "title": "Training AI-Native Future Lawyers: Rethinking Legal English Education for Gen Z",
+      "container": "International Handbook of Legal Language and Communication",
+      "editor": "Anne Wagner",
+      "publisher": "Springer, Cham",
+      "year": 2026,
+      "pages": "1-24",
+      "first_online": "2026-03-11",
+      "doi": "10.1007/978-3-031-87993-7_116-1",
+      "url": "https://link.springer.com/rwe/10.1007/978-3-031-87993-7_116-1",
+      "bibliographic_evidence": {
+        "pdf_pages": [
+          1,
+          21,
+          22,
+          23,
+          24
+        ],
+        "publisher_verification": "Official Springer page confirms title, author, editor, pages, DOI and publication date. Opened and inspected on 2026-10-27: https://link.springer.com/rwe/10.1007/978-3-031-87993-7_116-1"
+      },
+      "pdf_page_count": 24,
+      "rights_observed": "PDF page 1 states copyright Springer Nature Switzerland AG 2026. Publisher page identifies subscription content and reprints/permissions; no open reuse licence observed. Use attributed conceptual synthesis and original exercises, not redistributed pages or copied tables.",
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "visually_verified_pdf_pages": [
+        1,
+        20
+      ],
+      "page_mapping": "PDF pages 1-24 equal printed pages 1-24.",
+      "use": "Contemporary suggestions for human legal-English pedagogy, adapted as design hypotheses for agent instruction. AI-native refers to human students accustomed to AI, not AI agents.",
+      "pinpoints": [
+        {
+          "printed_pages": "6-7",
+          "pdf_pages": "6-7",
+          "section": "Pedagogical Applications: Create a Custom AI Tutor for Your Legal English Course",
+          "claim": "Define a bounded tutor role, supply materials and example interactions, test and refine instructions.",
+          "agent_adaptation": "Teacher receives a frozen unit, approved sources, feedback criteria and a bounded remediation budget; review unexpected outputs."
+        },
+        {
+          "printed_pages": "9-10",
+          "pdf_pages": "9-10",
+          "section": "Plain Language as Future Competence in Legal Education",
+          "claim": "Discusses precise, audience-aware explanation and revision of language.",
+          "agent_adaptation": "Require a short decision explanation that preserves qualifiers, evidence status and scope."
+        },
+        {
+          "printed_pages": "14-16",
+          "pdf_pages": "14-16",
+          "section": "Emergent Collaborations; Simulated Leadership Meetings",
+          "claim": "Describes shared work, peer review, role-based scenarios and explicit assessment components.",
+          "agent_adaptation": "Use teacher, learner and critic roles in practice, with separate credentials and an independently governed examiner for assessment."
+        },
+        {
+          "printed_pages": "17-19",
+          "pdf_pages": "17-19",
+          "section": "Case-Based Learning; Action-Oriented Approach",
+          "claim": "Recommends scenario-based professional tasks and applied artefacts.",
+          "agent_adaptation": "Original synthetic agent tasks should culminate in a justified tool/action recommendation or corrected output, not a recital of definitions."
+        },
+        {
+          "printed_pages": "19-20",
+          "pdf_pages": "19-20",
+          "section": "Microlearning",
+          "claim": "Recommends focused short tasks with a single objective, feedback and follow-up.",
+          "agent_adaptation": "Make each unit bounded and individually testable, then integrate units in a capstone. Justify length by task/context constraints and pilot evidence."
+        }
+      ],
+      "limitations": [
+        "This is an overview and set of proposals for human legal-English education, not a controlled trial of agent learning.",
+        "The chapter makes quantitative and general claims about generational attention spans, visual learning, memory chunks and AI tutor effectiveness; this review did not verify their underlying evidence. Do not use those claims as support for the module or as agent capability facts.",
+        "Descriptions of commercial AI products and links are not validated operational recommendations for our school.",
+        "References listed by the chapter were not all independently verified. Cite the chapter only for the particular design proposals actually inspected.",
+        "Role-based collaboration does not demonstrate independent judgement when several roles use the same underlying model or data."
+      ],
+      "source_id": "S10"
+    }
+  ],
+  "reuse": "Original school lessons and exercises. Uploaded source PDFs, page images and full extracted text are not redistributed in this repository. Notices are recorded as observed, not a legal determination about all possible uses.",
+  "correction_policy": "Source-specific errors and overbroad teaching heuristics are corrected explicitly in SOURCES.md; conceptual claims are checked rather than accepted merely because they are printed.",
+  "public_export_note": "Historical source-review record, 27 October 2026. Original uploads are excluded. Bibliographic pinpoints were carried forward from the pinned private source revision, not re-read against the original uploads during export. Private upload names and hashes removed."
+}

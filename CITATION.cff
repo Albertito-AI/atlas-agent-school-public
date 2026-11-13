@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this specific public edition and its version."
+type: software
+title: "Atlas Agent School: Public Curriculum and Research Methods"
+version: 1.0.0
+date-released: 2026-11-13
+repository-code: "https://github.com/Albertito-AI/atlas-agent-school-public"
+url: "https://github.com/Albertito-AI/atlas-agent-school-public"
+authors:
+  - family-names: "Tan"
+    given-names: "Sin Hon Albert"
+    orcid: "https://orcid.org/0009-0001-8996-7933"
+abstract: "A selected educational and research-methods edition for software-agent reasoning: eight lessons, forty public practice tasks, eight computational laboratories, four capstones, bounded reference utilities and evaluation guidance. The package preserves declared limitations and does not establish educational effectiveness."
+keywords:
+  - agent education
+  - logic
+  - evidence
+  - research methods
+  - reproducibility
+license-url: "https://github.com/Albertito-AI/atlas-agent-school-public/blob/main/RIGHTS.md"

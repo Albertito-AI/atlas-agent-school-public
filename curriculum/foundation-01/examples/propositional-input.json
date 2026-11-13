@@ -1,0 +1,48 @@
+{
+  "premises": [
+    {
+      "op": "implies",
+      "args": [
+        {
+          "var": "P"
+        },
+        {
+          "var": "Q"
+        }
+      ]
+    },
+    {
+      "op": "implies",
+      "args": [
+        {
+          "var": "Q"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "var": "R"
+            },
+            {
+              "var": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "op": "not",
+      "args": [
+        {
+          "var": "R"
+        }
+      ]
+    },
+    {
+      "var": "P"
+    }
+  ],
+  "conclusion": {
+    "var": "S"
+  }
+}

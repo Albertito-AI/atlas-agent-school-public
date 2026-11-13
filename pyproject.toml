@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-agent-school-public"
+version = "1.0.0"
+description = "Selected public curriculum, research methods and bounded formal reference utilities"
+requires-python = ">=3.10"
+license = {text = "All rights reserved; see RIGHTS.md"}
+authors = [{name = "Tan Sin Hon Albert"}]
+
+[tool.setuptools]
+packages = ["agent_school"]

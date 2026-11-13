@@ -1,0 +1,25 @@
+{
+  "module_id": "F01-public-core",
+  "version": "1.0.0",
+  "scope": "Selected public educational core; excludes OX1 operational extension and F02",
+  "counts": {
+    "units": 8,
+    "practice_items": 40,
+    "labs": 8,
+    "capstones": 4
+  },
+  "all_answers": "Public teaching references; unsuitable as hidden examinations",
+  "resources": [
+    "README.md",
+    "AGENT_SPEC.md",
+    "LABS.md",
+    "practice.json",
+    "labs.json",
+    "capstones.json",
+    "response-template.json",
+    "teacher-guide.md",
+    "assessment.md",
+    "SOURCES.md",
+    "source-register.json"
+  ]
+}

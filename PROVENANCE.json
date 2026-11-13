@@ -1,0 +1,308 @@
+{
+  "title": "Atlas Agent School: Public Curriculum and Research Methods",
+  "version": "1.0.0",
+  "edition_date": "2026-11-13",
+  "public_repository": "https://github.com/Albertito-AI/atlas-agent-school-public",
+  "source_repository": "Albertito-AI/atlas-agent-school",
+  "source_visibility": "private, preserved",
+  "source_commit": "7a0681dc81514f73d4a5348224d04e86d6c980f1",
+  "source_access_note": "Source revision is supplied for provenance; public use of this selected package does not require access to the private repository. Private history and operational records are not included.",
+  "rights": "Reserved rights in original School material; third-party sources retain their own rights. See RIGHTS.md.",
+  "manifest_scope": "All release files except this root PROVENANCE.json, .git internals and Python bytecode caches.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "22bc478fc0eb97818e8c2efd9a6c8f9dce55490bdd8074a3f2b6b8653c5c12d5",
+      "bytes": 30,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "2669c8771f76306073be445538b2760b7e60b345a9d9eb113d4b991437286cd4",
+      "bytes": 993,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a0df12f7e295c9f99f05ea7a8d7a9da0b0791af62c1d0df52edae4d88e986a84",
+      "bytes": 4339,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "sha256": "593584e924bcafebd216fefb54e60058242555b6452cf6cb1f9faa0a9c2e57e4",
+      "bytes": 3888,
+      "source_path": null,
+      "change_note": "New public-edition review or validation material"
+    },
+    {
+      "path": "RIGHTS.md",
+      "sha256": "a2f7447a1cd39574ee13dd332bb4855655c71413488f433b2ce7de832b999d54",
+      "bytes": 1576,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "agent_school/__init__.py",
+      "sha256": "6ebff2b098597138f1183ae7b16fbb01b2e0d9a1e11acbdc85966593d259fec3",
+      "bytes": 84,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "agent_school/finite_logic.py",
+      "sha256": "b3787097f945cc2e0f994ed96726ce119c178b0fa3731b1e264e3169ef5f5036",
+      "bytes": 13456,
+      "source_path": "agent_school/finite_logic.py",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "c9410a2241be13cef9521927962794dd92db6591"
+    },
+    {
+      "path": "agent_school/foundation.py",
+      "sha256": "3916e99372e5b96a4900def709638cacd08340efec5c21b6b8a3711350e8d9a4",
+      "bytes": 793,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "agent_school/logic.py",
+      "sha256": "2377c17da27d1a5ba7d35ea3d732bd83405a234f5029d55bcc369ea0b08f372d",
+      "bytes": 6230,
+      "source_path": "agent_school/logic.py",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "dd426a0f0deca8d6b48ea76d9f35a1531c89a347"
+    },
+    {
+      "path": "curriculum/foundation-01/AGENT_SPEC.md",
+      "sha256": "26c532b1c7b2c55a0da64ad8f9ff6ccb9a18006cd1a99e2c645901169fbb912f",
+      "bytes": 9849,
+      "source_path": "curriculum/foundation-01/AGENT_SPEC.md",
+      "change_note": "Adapted operational references for a standalone public teaching edition",
+      "source_git_blob_sha": "a612e0fd3a76031240d0eaa4e2858b24f6bd3662"
+    },
+    {
+      "path": "curriculum/foundation-01/LABS.md",
+      "sha256": "624e7dfcda9b2289f6f4715dda00b68c20be4bbc0c26208352d101186d40dbcd",
+      "bytes": 6616,
+      "source_path": "curriculum/foundation-01/LABS.md",
+      "change_note": "Adapted protected-examination reference for standalone public edition",
+      "source_git_blob_sha": "481ebbbda126d041acc4cfdba78ccb26eda9908c"
+    },
+    {
+      "path": "curriculum/foundation-01/README.md",
+      "sha256": "9d281ef01e19869262796036aa1f33d98a37cc2f7b97ae14cfae86c43b305a1a",
+      "bytes": 2779,
+      "source_path": "curriculum/foundation-01/README.md",
+      "change_note": "Rewritten for selected public core; removed OX1 counts, private links and unavailable classroom commands",
+      "source_git_blob_sha": "6728e8b6e404dc8d855c07a9e7ff4a9ac6b3d710"
+    },
+    {
+      "path": "curriculum/foundation-01/SOURCES.md",
+      "sha256": "84fee9308ce155b7c2ef6bf104dbb835e33cf75aa7b4030b475a1d988dd99685",
+      "bytes": 10609,
+      "source_path": "curriculum/foundation-01/SOURCES.md",
+      "change_note": "Historical review labelled, private upload metadata removed, current public-edition rights stated",
+      "source_git_blob_sha": "57afa0e8d2caa3e82131706ae34251e82e904f0a"
+    },
+    {
+      "path": "curriculum/foundation-01/assessment.md",
+      "sha256": "95d5ac7f73cdb6e3cbce03657c010ee12fc33a2a2f98f0403dd65bfee1e95abb",
+      "bytes": 13284,
+      "source_path": "curriculum/foundation-01/assessment.md",
+      "change_note": "Adapted to public research use; removed dependencies on private cohort records and omitted classroom code",
+      "source_git_blob_sha": "03ae497e90af352e91d120d78b4666179c698103"
+    },
+    {
+      "path": "curriculum/foundation-01/capstones.json",
+      "sha256": "9c69d0db6f35fbc077a7ddb16318207d43eb207fc50a478ab48fb27eeba31e4c",
+      "bytes": 8042,
+      "source_path": "curriculum/foundation-01/capstones.json",
+      "change_note": "C04 made self-contained using explicitly synthetic readiness facts",
+      "source_git_blob_sha": "6d94b24bbdcfd6a6c57f33c60bac47b9f50636be"
+    },
+    {
+      "path": "curriculum/foundation-01/examples/finite-input.json",
+      "sha256": "0e90e85b1bb2413ac1a4f1d6bcf0b5acfa474aa169689e59e3ff2ce26a5bcfdf",
+      "bytes": 1707,
+      "source_path": "curriculum/foundation-01/examples/finite-input.json",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "d4ffd8bc776ee9a6b65753eb2bf3d70778aeece5"
+    },
+    {
+      "path": "curriculum/foundation-01/examples/propositional-input.json",
+      "sha256": "72d2c773d86a744a55742809a1277d1fa850d40d34845188277cdeabe84db90f",
+      "bytes": 614,
+      "source_path": "curriculum/foundation-01/examples/propositional-input.json",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "3b7be585b0f8d59bd14a130b35108d93268c0365"
+    },
+    {
+      "path": "curriculum/foundation-01/labs.json",
+      "sha256": "0918538c9a466d44786e6b64786a0de2feeedd317584ee57687a679cc3934a4b",
+      "bytes": 31828,
+      "source_path": "curriculum/foundation-01/labs.json",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "7c29989414acd38939311950740d7ba2d1f8ee38"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/01-claims-and-evidence.md",
+      "sha256": "07075e95f2e95da69db67cfada1f8791b77fae051523e234e9d284fdbe15a7be",
+      "bytes": 4815,
+      "source_path": "curriculum/foundation-01/lessons/01-claims-and-evidence.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "cfc32478581b6ffe320c694fcd53cba86a4bc284"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/02-validity-and-countermodels.md",
+      "sha256": "e19843d868630bb53f73955524b2eeca1db71a3d0e8fb2e13db1a9dd3bf5bd6f",
+      "bytes": 4670,
+      "source_path": "curriculum/foundation-01/lessons/02-validity-and-countermodels.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "8dca65b4dfa5ae5a8c0b6040592f814934b1c460"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/03-conditionals-and-scope.md",
+      "sha256": "c8605fd47e02778ec0207f99cc3f88e6014d26094b941bf3c45e37c7c45e0a8f",
+      "bytes": 3938,
+      "source_path": "curriculum/foundation-01/lessons/03-conditionals-and-scope.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "81a3e01dacc64956c1f3f06ad13a392336b46252"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/04-quantifiers-and-coverage.md",
+      "sha256": "a7c0d7b3080aa54544b0e8022b813d418dd8b0550600ca2dc338ffadb5baccfa",
+      "bytes": 4054,
+      "source_path": "curriculum/foundation-01/lessons/04-quantifiers-and-coverage.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "5bb67e232476f3ed4c209b20ff52d01eed6241b6"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/05-uncertainty-and-causation.md",
+      "sha256": "836cdc8fbbb0d3f6dc8e647ea1b87698e46ff7b83b30fbd6875e31842f0a672e",
+      "bytes": 4333,
+      "source_path": "curriculum/foundation-01/lessons/05-uncertainty-and-causation.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "fb366c1bf257dc941472b42b112536cd8072cb8e"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/06-sources-and-authority.md",
+      "sha256": "412c702db106d407a0bc136595836af8866e355ff4978bc6224c0bb47bced4fa",
+      "bytes": 4421,
+      "source_path": "curriculum/foundation-01/lessons/06-sources-and-authority.md",
+      "change_note": "Adapted reading note to remove private admissions and security links",
+      "source_git_blob_sha": "f1cedf7638c62c3376b0591909ef88a1f9e7583f"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/07-criticism-and-repair.md",
+      "sha256": "0ebf9684282a0445afe5cb193771263d1560b7201573456426f7b79b3d9b8722",
+      "bytes": 3997,
+      "source_path": "curriculum/foundation-01/lessons/07-criticism-and-repair.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "02955c4bc7fa5c4f6f3782dae67ef582cfca8b17"
+    },
+    {
+      "path": "curriculum/foundation-01/lessons/08-integrated-reports.md",
+      "sha256": "5a8ddf2e11cb4f70a757154018b3e6d9485134208cc6cb3996c4c2bc89f67393",
+      "bytes": 4326,
+      "source_path": "curriculum/foundation-01/lessons/08-integrated-reports.md",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "2a45963de7b33e676396251eddb1262787912bf9"
+    },
+    {
+      "path": "curriculum/foundation-01/manifest.json",
+      "sha256": "5104ec9f0cb48e76923f0f2b6f75f5c285f48525002706c48b22a240d4867502",
+      "bytes": 582,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "curriculum/foundation-01/practice.json",
+      "sha256": "fe98b51b802f48b03b5cc1804180a33d1aecb84ed1cc5ab2afbd14798560cefa",
+      "bytes": 24094,
+      "source_path": "curriculum/foundation-01/practice.json",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "adb77b26eed1325f3e672176586708ca79052ec4"
+    },
+    {
+      "path": "curriculum/foundation-01/response-template.json",
+      "sha256": "ad459e7d98069211bc7d1b62adc488d5881fce9b01bdd9932c7ccea95eda4d25",
+      "bytes": 834,
+      "source_path": "curriculum/foundation-01/response-template.json",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "7f1a3f0599716d5fdac6f8b29e887f4068ae7b09"
+    },
+    {
+      "path": "curriculum/foundation-01/source-register.json",
+      "sha256": "74f25de1407572cece4e441e18e707cc097f7e575f26ae0fcb626e40bfccf34c",
+      "bytes": 45625,
+      "source_path": "curriculum/foundation-01/source-register.json",
+      "change_note": "Removed private uploaded-file identifiers and unavailable-source list; retained attributed historical bibliographic review",
+      "source_git_blob_sha": "03c9a2c91925c814ff37439f1a608b347dcb8c05"
+    },
+    {
+      "path": "curriculum/foundation-01/teacher-guide.md",
+      "sha256": "750a375c13ada0a65a4825772ea7c600e7409e3c5b5df68edc225f8bf5eb2e0c",
+      "bytes": 13332,
+      "source_path": "curriculum/foundation-01/teacher-guide.md",
+      "change_note": "Adapted classroom references to the public package",
+      "source_git_blob_sha": "341de1ab40c2b8673b65e820d4b23ecf8380d988"
+    },
+    {
+      "path": "methods/EDUCATIONAL_PRINCIPLES.md",
+      "sha256": "001177fd9a3a8fa2e32992d8bb3338442e8c08150d06bfac6348e3f72fedce35",
+      "bytes": 3939,
+      "source_path": "governance/EDUCATIONAL_CONSTITUTION.md",
+      "change_note": "Public synthesis of principles; omitted private founder records, internal hierarchy and operational governance",
+      "source_git_blob_sha": "33690200dc801dd9b67c7793bbe1c4503c64dbfa"
+    },
+    {
+      "path": "methods/RESEARCH_FOUNDATIONS.md",
+      "sha256": "8b7eccca811c11de8f54b4c61e38195f96a886af617543ab6889431b3f6ccfce",
+      "bytes": 2441,
+      "source_path": "docs/RESEARCH.md",
+      "change_note": "Selected educational research references; omitted identity/deployment section; institutional NIST citation style",
+      "source_git_blob_sha": "d437768f7a18a939e4e8b7d08e6081e3a8785b8e"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "063ab8e1dfbaa7da3da077e5033d137a74499d5713b0663d58b36d083e58906f",
+      "bytes": 421,
+      "source_path": null,
+      "change_note": "New public-edition material"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "e80d64603e832353534c1ead32a55bab4c7f1d62eaa4954013cbdcc73d3f9456",
+      "bytes": 2367,
+      "source_path": null,
+      "change_note": "New public-edition review or validation material"
+    },
+    {
+      "path": "tests/test_finite_logic.py",
+      "sha256": "285ed4e16b49a0bb5471b7c5173d7462fb8148a11289697c55eb8732baf41786",
+      "bytes": 12231,
+      "source_path": "tests/test_finite_logic.py",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "7377f26d47a1287a96e61157f485095924b10b1e"
+    },
+    {
+      "path": "tests/test_foundation_labs.py",
+      "sha256": "df8df2a4b4c48f698a20adf34ae84b3c85956b349b59a23cc7d34c1d38fd4419",
+      "bytes": 12914,
+      "source_path": "tests/test_foundation_labs.py",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "9e259a12059db76ee74c2d6ba9d1ceb74e7dc9be"
+    },
+    {
+      "path": "tests/test_logic.py",
+      "sha256": "dd7d4850c37e09f3399efe76651079bea58a64d23a6dfa2a2c8c89b6060e64ba",
+      "bytes": 7364,
+      "source_path": "tests/test_logic.py",
+      "change_note": "Selected source file; final newline normalised",
+      "source_git_blob_sha": "14416718d90984dfc6ed21d4726e69fcca26fc30"
+    }
+  ]
+}

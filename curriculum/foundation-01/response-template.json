@@ -1,0 +1,36 @@
+{
+  "record_kind": "template_not_an_observation",
+  "module_id": "F01",
+  "module_version": "1.0.0",
+  "task_id": null,
+  "learner_id": null,
+  "configuration_digest": null,
+  "claim": {
+    "text": null,
+    "status": null,
+    "domain": null,
+    "revision": null,
+    "as_of": null
+  },
+  "evidence": [],
+  "assumptions": [],
+  "formalisation": null,
+  "verification": {
+    "method": null,
+    "input_digest": null,
+    "result": null,
+    "scope_limit": null
+  },
+  "uncertainty": [],
+  "next_action": {
+    "action": null,
+    "authority_reference": null,
+    "required_evidence": []
+  },
+  "revision": {
+    "previous_record": null,
+    "changed_claims": [],
+    "reason": null
+  },
+  "privacy_rule": "Use relevant synthetic or permitted evidence only; do not include private keys, secrets or private internal deliberation."
+}

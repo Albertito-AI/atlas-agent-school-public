@@ -1,0 +1,104 @@
+{
+  "structure": {
+    "domain": [
+      "r1",
+      "r2",
+      "a",
+      "b"
+    ],
+    "constants": {
+      "first": "a",
+      "alias": "a"
+    },
+    "predicates": {
+      "Report": {
+        "arity": 1,
+        "extension": [
+          [
+            "r1"
+          ],
+          [
+            "r2"
+          ]
+        ]
+      },
+      "Reviewer": {
+        "arity": 1,
+        "extension": [
+          [
+            "a"
+          ],
+          [
+            "b"
+          ]
+        ]
+      },
+      "Reviews": {
+        "arity": 2,
+        "extension": [
+          [
+            "a",
+            "r1"
+          ],
+          [
+            "b",
+            "r2"
+          ]
+        ]
+      },
+      "Enrolled": {
+        "arity": 1,
+        "extension": []
+      },
+      "Passed": {
+        "arity": 1,
+        "extension": []
+      }
+    }
+  },
+  "formula": {
+    "op": "forall",
+    "var": "x",
+    "body": {
+      "op": "implies",
+      "args": [
+        {
+          "pred": "Report",
+          "args": [
+            {
+              "var": "x"
+            }
+          ]
+        },
+        {
+          "op": "exists",
+          "var": "y",
+          "body": {
+            "op": "and",
+            "args": [
+              {
+                "pred": "Reviewer",
+                "args": [
+                  {
+                    "var": "y"
+                  }
+                ]
+              },
+              {
+                "pred": "Reviews",
+                "args": [
+                  {
+                    "var": "y"
+                  },
+                  {
+                    "var": "x"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
