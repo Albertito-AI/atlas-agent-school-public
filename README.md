@@ -55,6 +55,8 @@ manifest whose automated evidence relations are labelled `context`. Its fictiona
 demonstration can be inspected alongside the distinction between literal evidence
 and substantive judgement taught here; it is not part of this curriculum edition.
 
+Archived related software release: [Evidence Replay 0.1.0a1 (public prototype)](https://doi.org/10.5281/zenodo.24206408).
+
 The [validation record](https://github.com/Albertito-AI/colibri-atlas/blob/main/examples/atlas_evidence/VALIDATION.md) reports **48 tests passed, zero skips**,
 including Colibri's actual HTTP gateway with a scripted engine double. These are
 software checks, not a learner evaluation or a real-model quality study. Exact
