@@ -46,6 +46,20 @@ The edition contains the base F01 educational core only. It excludes the operati
 
 `PROVENANCE.json` records the pinned source revision, source paths, export adaptations and file hashes. `RELEASE_REVIEW.md` states what was checked and what remains unverified. The private source repository's history is not included.
 
+## Related software example
+
+[Colibri Atlas: Evidence Replay 0.1.0a1](https://github.com/Albertito-AI/colibri-atlas/tree/main/examples/atlas_evidence) is a separate public
+prototype for checking candidate quotations against supplied source snapshots.
+It combines optional Atlas Reweave policy rechecks with a RegNav Source Watch
+manifest whose automated evidence relations are labelled `context`. Its fictional
+demonstration can be inspected alongside the distinction between literal evidence
+and substantive judgement taught here; it is not part of this curriculum edition.
+
+The [validation record](https://github.com/Albertito-AI/colibri-atlas/blob/main/examples/atlas_evidence/VALIDATION.md) reports **48 tests passed, zero skips**,
+including Colibri's actual HTTP gateway with a scripted engine double. These are
+software checks, not a learner evaluation or a real-model quality study. Exact
+quotation agreement does not establish semantic support for a candidate claim.
+
 ## Citation and rights
 
 Use [CITATION.cff](CITATION.cff) and the public edition's DOI once assigned. The DOI identifies this selected version, rather than the entire private institution or future revisions.
