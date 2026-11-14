@@ -18,6 +18,13 @@
       "change_note": "Existing repository maintenance workflow added after public edition export; original curriculum unchanged."
     },
     {
+      "path": ".github/workflows/native-validation.yml",
+      "sha256": "435b78e2400d161c5cf82bd291a2718cb20ee92f8da757a92141f10ae778a398",
+      "bytes": 979,
+      "source_path": null,
+      "change_note": "New public-edition native validation workflow; original curriculum unchanged."
+    },
+    {
       "path": ".gitignore",
       "sha256": "22bc478fc0eb97818e8c2efd9a6c8f9dce55490bdd8074a3f2b6b8653c5c12d5",
       "bytes": 30,

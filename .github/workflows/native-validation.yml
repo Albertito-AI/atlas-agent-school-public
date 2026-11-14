@@ -1,0 +1,29 @@
+name: Native validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Require supported Python
+        run: python3 -c "import sys; assert sys.version_info >= (3, 10), sys.version"
+      - name: Verify release inventory and curriculum
+        run: python3 scripts/verify_release.py
+      - name: Run native regression tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Run propositional example
+        run: python3 -m agent_school.foundation logic --input curriculum/foundation-01/examples/propositional-input.json
+      - name: Run finite structure example
+        run: python3 -m agent_school.foundation finite --input curriculum/foundation-01/examples/finite-input.json
