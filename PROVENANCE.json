@@ -11,6 +11,13 @@
   "manifest_scope": "All release files except this root PROVENANCE.json, .git internals and Python bytecode caches.",
   "files": [
     {
+      "path": ".github/workflows/atlas-flexible-zero-fail.yml",
+      "sha256": "95f09fe572f4f24543a2d98e0d1cbeedc8f01a8159e44cbe8ebe07b370c64a37",
+      "bytes": 383,
+      "source_path": null,
+      "change_note": "Existing repository maintenance workflow added after public edition export; original curriculum unchanged."
+    },
+    {
       "path": ".gitignore",
       "sha256": "22bc478fc0eb97818e8c2efd9a6c8f9dce55490bdd8074a3f2b6b8653c5c12d5",
       "bytes": 30,
