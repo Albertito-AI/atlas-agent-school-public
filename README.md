@@ -67,3 +67,7 @@ quotation agreement does not establish semantic support for a candidate claim.
 Use [CITATION.cff](CITATION.cff) and the public edition's DOI once assigned. The DOI identifies this selected version, rather than the entire private institution or future revisions.
 
 The original material remains under [reserved rights](RIGHTS.md). Third-party sources retain their existing rights and attribution. Public availability does not apply a blanket open-source licence.
+
+## Sport governance teaching application
+
+Assign a records agent, a finance reviewer and an athlete representative different evidence in the venue exercise. Compare their answers before a director signs. [Exercise and records](https://github.com/Albertito-AI/sport-governance-and-administration/blob/main/lab/README.md) · [Albert Tan’s book and teaching companion](https://alberttansinhon.com/sport-governance/).

@@ -40,10 +40,10 @@
     },
     {
       "path": "README.md",
-      "sha256": "38266c5ffa151c2c067b6c7afef03598ba8ae805d20dcb1c563f59c85430b310",
-      "bytes": 5438,
+      "sha256": "6d989a55f91c67eed479728c532aa67cd79c0ed3e15bab25a03a65a27eb288b6",
+      "bytes": 5855,
       "source_path": null,
-      "change_note": "New public-edition material"
+      "change_note": "New public-edition material. A link to the sport governance teaching application was added on 25 November 2026."
     },
     {
       "path": "RELEASE_REVIEW.md",
