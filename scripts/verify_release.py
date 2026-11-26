@@ -15,13 +15,19 @@ def main():
               and "__pycache__" not in path.relative_to(ROOT).parts
               and path.suffix not in (".pyc", ".pyo")}
     recorded = {entry["path"] for entry in manifest["files"]}
+    if len(recorded) != len(manifest["files"]):
+        failures.append("Duplicate path in the release manifest")
     if actual != recorded:
         failures.append(f"Manifest file-set mismatch: unrecorded={sorted(actual-recorded)}, missing={sorted(recorded-actual)}")
     for entry in manifest["files"]:
         path = ROOT / entry["path"]
         if not path.is_file():
             failures.append("Missing file: " + entry["path"])
-        elif hashlib.sha256(path.read_bytes()).hexdigest() != entry["sha256"]:
+            continue
+        payload = path.read_bytes()
+        if type(entry.get("bytes")) is not int or entry["bytes"] != len(payload):
+            failures.append(f"Byte count mismatch: {entry['path']} (measured {len(payload)})")
+        if hashlib.sha256(payload).hexdigest() != entry["sha256"]:
             failures.append("Hash mismatch: " + entry["path"])
     base = ROOT / "curriculum/foundation-01"
     for name, key, expected in [("practice.json", "items", 40), ("labs.json", "labs", 8), ("capstones.json", "capstones", 4)]:

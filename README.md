@@ -46,6 +46,8 @@ The edition contains the base F01 educational core only. It excludes the operati
 
 `PROVENANCE.json` records the pinned source revision, source paths, export adaptations and file hashes. `RELEASE_REVIEW.md` states what was checked and what remains unverified. The private source repository's history is not included.
 
+When editing an edition file, review its diff and measure the new bytes. For a README change, run `wc -c < README.md` and `sha256sum README.md`, record the results under `bytes` and `sha256` in its manifest entry, then run `python3 scripts/verify_release.py`.
+
 ## Related software example
 
 [Colibri Atlas: Evidence Replay 0.1.0a1](https://github.com/Albertito-AI/colibri-atlas/tree/main/examples/atlas_evidence) is a separate public
@@ -64,7 +66,7 @@ quotation agreement does not establish semantic support for a candidate claim.
 
 ## Citation and rights
 
-Use [CITATION.cff](CITATION.cff) and the public edition's DOI once assigned. The DOI identifies this selected version, rather than the entire private institution or future revisions.
+Zenodo archives the public curriculum as it stood on 13 November 2026. Cite that edition when using its teaching materials. If you use a later change from this repository, include the Git commit as well. [Edition 1.0.0](https://doi.org/10.5281/zenodo.24196864) · [Citation metadata](CITATION.cff).
 
 The original material remains under [reserved rights](RIGHTS.md). Third-party sources retain their existing rights and attribution. Public availability does not apply a blanket open-source licence.
 
