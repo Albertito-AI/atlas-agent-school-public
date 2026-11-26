@@ -3,6 +3,7 @@ message: "Please cite this specific public edition and its version."
 type: software
 title: "Atlas Agent School: Public Curriculum and Research Methods"
 version: 1.0.0
+doi: "10.5281/zenodo.24196864"
 date-released: 2026-11-13
 repository-code: "https://github.com/Albertito-AI/atlas-agent-school-public"
 url: "https://github.com/Albertito-AI/atlas-agent-school-public"

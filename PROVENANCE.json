@@ -33,17 +33,17 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "2669c8771f76306073be445538b2760b7e60b345a9d9eb113d4b991437286cd4",
-      "bytes": 993,
+      "sha256": "3c5c68e490f34a0cffb72f058f78b22f89819551f999b90a30c5d10bb659c0be",
+      "bytes": 1024,
       "source_path": null,
-      "change_note": "New public-edition material"
+      "change_note": "New public-edition material Added the registered version DOI."
     },
     {
       "path": "README.md",
-      "sha256": "6d989a55f91c67eed479728c532aa67cd79c0ed3e15bab25a03a65a27eb288b6",
-      "bytes": 5855,
+      "sha256": "66c61a204defe6eaf7b12b4e13db11934bf7b584ed84cc4186cd0e3abf9bccf6",
+      "bytes": 6232,
       "source_path": null,
-      "change_note": "New public-edition material. A link to the sport governance teaching application was added on 25 November 2026."
+      "change_note": "New public-edition material. A link to the sport governance teaching application was added on 25 November 2026. Added the archived edition citation and maintainer instructions."
     },
     {
       "path": "RELEASE_REVIEW.md",
@@ -289,10 +289,10 @@
     },
     {
       "path": "scripts/verify_release.py",
-      "sha256": "e80d64603e832353534c1ead32a55bab4c7f1d62eaa4954013cbdcc73d3f9456",
-      "bytes": 2367,
+      "sha256": "e8a825a5ffcb19671d56cdecfcc64685824f6918b7f3e06e99748b89565e144b",
+      "bytes": 2703,
       "source_path": null,
-      "change_note": "New public-edition review or validation material"
+      "change_note": "New public-edition review or validation material The verifier also checks declared byte counts and duplicate inventory paths."
     },
     {
       "path": "tests/test_finite_logic.py",
