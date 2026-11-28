@@ -40,10 +40,10 @@
     },
     {
       "path": "README.md",
-      "sha256": "66c61a204defe6eaf7b12b4e13db11934bf7b584ed84cc4186cd0e3abf9bccf6",
-      "bytes": 6232,
+      "sha256": "78c59b8889f5fbdf8a99106e192d65cc191aaf235f32c9f61d92e4f1b348e63c",
+      "bytes": 6692,
       "source_path": null,
-      "change_note": "New public-edition material. A link to the sport governance teaching application was added on 25 November 2026. Added the archived edition citation and maintainer instructions."
+      "change_note": "New public-edition material. A link to the sport governance teaching application was added on 25 November 2026. Added the archived edition citation and maintainer instructions. Added the external Maths Arcade teaching application."
     },
     {
       "path": "RELEASE_REVIEW.md",
