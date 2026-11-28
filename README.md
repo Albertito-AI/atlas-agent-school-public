@@ -70,6 +70,10 @@ Zenodo archives the public curriculum as it stood on 13 November 2026. Cite that
 
 The original material remains under [reserved rights](RIGHTS.md). Third-party sources retain their existing rights and attribution. Public availability does not apply a blanket open-source licence.
 
+## Mathematics teaching application
+
+Use Lattice Dash to practise distinguishing an example from a claim about every possible route. One learner records a legal route and the upper bound it establishes. A partner searches for a shorter route or gives a lower bound that rules out every shorter one. The six-game collection includes printable positions and a separate worked key. [Maths Arcade teaching pack](https://alberttansinhon.com/math-arcade/teaching/)
+
 ## Sport governance teaching application
 
 Assign a records agent, a finance reviewer and an athlete representative different evidence in the venue exercise. Compare their answers before a director signs. [Exercise and records](https://github.com/Albertito-AI/sport-governance-and-administration/blob/main/lab/README.md) · [Albert Tan’s book and teaching companion](https://alberttansinhon.com/sport-governance/).
